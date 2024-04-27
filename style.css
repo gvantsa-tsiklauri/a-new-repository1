@@ -29,4 +29,63 @@ header ul li a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-transform: uppercase;
+}
+main {
+    width: 1080px;
+    margin: 21px auto !important;
+}
+main h3 {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card-container {
+    width: 100%;
+    margin: 20px 0;
+
+}
+.card {
+    display: inline-block;
+    margin: 0 20px;
+    background-color: white;
+    width: 362px;
+}
+.img-wrapper {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 186px;
+}
+.card-img {
+    width: 362px;
+    position: absolute !important;
+}
+article div span {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute !important;
+    z-index: 5;
+    margin-top: 32px;
+    margin-left: 41px;
+}
+.card-footer {
+    padding: 50px 37px;
+}
+.card-text {
+    color: #8A8787;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
